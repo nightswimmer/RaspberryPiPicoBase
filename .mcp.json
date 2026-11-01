@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "kicad": {
+      "command": "uvx",
+      "args": ["--from", "kicad-mcp-pro==4.5.0", "kicad-mcp-pro", "--transport", "stdio"],
+      "env": {
+        "KICAD_MCP_PROJECT_DIR": ".",
+        "KICAD_MCP_PROFILE": "full",
+        "KICAD_MCP_OPERATING_MODE": "write",
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}

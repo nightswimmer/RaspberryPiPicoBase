@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RaspberryPiPicoBase")(type "KiCad")(uri "${KIPRJMOD}/lib/RaspberryPiPicoBase.kicad_sym")(options "")(descr "Project symbols (derived from Raspberry Pi RP2350A minimal design)"))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RaspberryPiPicoBase")(type "KiCad")(uri "${KIPRJMOD}/lib/RaspberryPiPicoBase.pretty")(options "")(descr "Project footprints (derived from Raspberry Pi RP2350A minimal design)"))
+)
