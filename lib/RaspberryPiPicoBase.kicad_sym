@@ -48,7 +48,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R60J475ME47D\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C23733"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59,7 +59,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 4.7uF, 20%, M1005, 6.3V, X5R"
+		(property "Description" "Capacitor, MLCC, 4.7uF, 20%, M1005, 10V, X5R"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81,7 +81,7 @@
 				(justify left)
 			)
 		)
-		(property "voltage" "6.3V"
+		(property "voltage" "10V"
 			(at 2.032 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -136,7 +136,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -147,7 +147,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "GRM155R60J475ME47D"
+		(property "manufacturer_pn" "CL05A475MP5NRNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -180,7 +180,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C82453"
+		(property "lcsc_pn" "C23733"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C1525"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -402,7 +402,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 16V, X7R"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -424,7 +424,7 @@
 				(justify left)
 			)
 		)
-		(property "voltage" "25V"
+		(property "voltage" "16V"
 			(at 2.032 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -479,7 +479,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -490,7 +490,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "GRM155R71E104KE14D"
+		(property "manufacturer_pn" "CL05B104KO5NNNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -523,7 +523,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C77014"
+		(property "lcsc_pn" "C1525"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -712,7 +712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "33p"
 			(at 2.032 3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -734,7 +734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM1555C1H150JA01D\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C1562"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -745,7 +745,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G"
+		(property "Description" "Capacitor, MLCC, 33pF, 5%, M1005, 50V, C0G"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -822,7 +822,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -833,7 +833,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "GRM1555C1H150JA01D"
+		(property "manufacturer_pn" "0402CG330J500NT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -866,7 +866,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C76950"
+		(property "lcsc_pn" "C1562"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -932,7 +932,7 @@
 				)
 			)
 		)
-		(property "capacitance" "15p"
+		(property "capacitance" "33p"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1077,7 +1077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M2012\\MURATA_GRM21BR61C106KE15L\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C15850"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1088,7 +1088,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, MLCC, 10uF, 10%, M2012, 16V, X5R"
+		(property "Description" "Capacitor, MLCC, 10uF, 10%, M2012, 25V, X5R"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1110,7 +1110,7 @@
 				(justify left)
 			)
 		)
-		(property "voltage" "16V"
+		(property "voltage" "25V"
 			(at 2.032 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1165,7 +1165,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1176,7 +1176,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "GRM21BR61C106KE15L"
+		(property "manufacturer_pn" "CL21A106KAYNNNE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1209,7 +1209,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C77075"
+		(property "lcsc_pn" "C15850"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSW-118-07-L-D"
+		(property "Value" "DS1021-2x18SF11-B"
 			(at -1.27 -25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,7 +1427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Connectors\\Pin_Headers\\SAMTEC_TSW-118-07-L-D\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C7430414"
 			(at -1.27 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1471,7 +1471,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Samtec"
+		(property "manufacturer" "CONNFLY Elec"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1482,7 +1482,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "TSW-118-07-L-D"
+		(property "manufacturer_pn" "DS1021-2x18SF11-B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,7 +1515,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" ""
+		(property "lcsc_pn" "C7430414"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Value" "SM03B-SRSS-TB(LF)(SN)"
+		(property "Value" "SM03B-GHS-TB(LF)(SN)"
 			(at -2.159 -10.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RaspberryPiPicoBase:jst_sm03b-srss-tb-lf--sn-"
+		(property "Footprint" "RaspberryPiPicoBase:jst_sm03b-ghs-tb"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Connectors\\Rectangular\\JST_SM03B-SRSS-TB-LF--SN-\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C514175"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +2688,7 @@
 				)
 			)
 		)
-		(property "Description" "Header, JST-SH, 01x03W, Pitch=1mm, SMD, Right Angle"
+		(property "Description" "Header, JST-GH, 01x03W, Pitch=1.25mm, SMD, Right Angle"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +2732,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "SM03B-SRSS-TB(LF)(SN)"
+		(property "manufacturer_pn" "SM03B-GHS-TB(LF)(SN)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2765,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" ""
+		(property "lcsc_pn" "C514175"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +2776,7 @@
 				)
 			)
 		)
-		(property "size" "5x4.95x2.95mm"
+		(property "size" "8.5x4.25x3.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPiPicoBase:jst_sm03b-srss-tb-lf--sn-"
+		(property "ki_fp_filters" "RaspberryPiPicoBase:jst_sm03b-ghs-tb"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3465,7 +3465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "434133025816"
+		(property "Value" "TS-1187A-B-A-B"
 			(at -6.096 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +3476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RaspberryPiPicoBase:wurthelek_434133025816"
+		(property "Footprint" "RaspberryPiPicoBase:xkb_ts-1187a-b-a-b"
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,7 +3487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Electromechanical\\Switches\\Tactile\\WURTHELEK_434133025816\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C318884"
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Pushbutton, SPST, N.O., 4.2x3.2x2.5mm"
+		(property "Description" "Tactile Pushbutton, SPST, N.O., 5.1x5.1x1.5mm, 160gf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +3520,7 @@
 				)
 			)
 		)
-		(property "status" "DNU"
+		(property "status" "OK"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,7 +3531,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Wurth Elektronik"
+		(property "manufacturer" "XKB Connection"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +3542,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "434133025816"
+		(property "manufacturer_pn" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +3575,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C5504987"
+		(property "lcsc_pn" "C318884"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3586,7 @@
 				)
 			)
 		)
-		(property "size" "4.2x3.2x2.5mm"
+		(property "size" "5.1x5.1x1.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "z_height_nom" "2.5mm"
+		(property "z_height_nom" "1.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3619,7 @@
 				)
 			)
 		)
-		(property "package" "4.2x3.2x2.5mm"
+		(property "package" "5.1x5.1x1.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,7 +3630,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPiPicoBase:wurthelek_434133025816"
+		(property "ki_fp_filters" "RaspberryPiPicoBase:xkb_ts-1187a-b-a-b"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Frequency_Timing\\Crystals\\ABRACON_ABM8-272-T3\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C9002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +3877,7 @@
 				)
 			)
 		)
-		(property "Description" "XTAL, SMT, 12 MHz, Fundamental, Ftol=30ppm, Fstab=30ppm, 10pF, 3.2x2.5mm"
+		(property "Description" "XTAL, SMT, 12 MHz, Fundamental, Ftol=10ppm, Fstab=20ppm, 20pF, ESR 80R max, 3.2x2.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3910,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Abracon"
+		(property "manufacturer" "YXC Crystal Oscillators"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3921,7 +3921,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "ABM8-272-T3"
+		(property "manufacturer_pn" "X322512MSB4SI"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +3954,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C20625731"
+		(property "lcsc_pn" "C9002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +3987,7 @@
 				)
 			)
 		)
-		(property "tolerance" "30ppm"
+		(property "tolerance" "10ppm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +4009,7 @@
 				)
 			)
 		)
-		(property "load_capacitance" "10pF"
+		(property "load_capacitance" "20pF"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4042,7 @@
 				)
 			)
 		)
-		(property "esr" "50R Max"
+		(property "esr" "80R"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4075,7 @@
 				)
 			)
 		)
-		(property "freq_stability" "30ppm"
+		(property "freq_stability" "20ppm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +4431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Inductors\\Fixed\\M2016\\ABRACON_AOTA-B201610S3R3-101-T\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C42411119"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5202,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Integrated_Circuits\\Microcontrollers\\RPI_RP2350A\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C41378174"
 			(at -2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5257,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "RP2350A"
+		(property "manufacturer_pn" "RP2354A"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5290,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C42411118"
+		(property "lcsc_pn" "C41378174"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCP1117ST33T3G"
+		(property "Value" "AMS1117-3.3"
 			(at 1.27 -5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Integrated_Circuits\\Power\\LDO\\ONSEMI_NCP1117ST33T3G\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C6186"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +6546,7 @@
 				)
 			)
 		)
-		(property "Description" "LDO, Vin=4.75-20V, Vout=3.3V, 1A min, SOT-223"
+		(property "Description" "LDO, Vin=4.75-15V, Vout=3.3V, 1A, SOT-223"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "ON Semiconductor"
+		(property "manufacturer" "Advanced Monolithic Systems"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6590,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "NCP1117ST33T3G"
+		(property "manufacturer_pn" "AMS1117-3.3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C26537"
+		(property "lcsc_pn" "C6186"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7350,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Resistors\\Chip\\M1005\\YAGEO_RC0402JR-070RL\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C17168"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7427,7 +7427,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "manufacturer" "UNI-ROYAL (Uniroyal Elec)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7438,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "RC0402JR-070RL"
+		(property "manufacturer_pn" "0402WGF0000TCE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7471,7 +7471,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C60485"
+		(property "lcsc_pn" "C17168"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,7 +7702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Resistors\\Chip\\M1005\\YAGEO_RC0402FR-07.autogen\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C11702"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "manufacturer" "UNI-ROYAL (Uniroyal Elec)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7790,7 +7790,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "RC0402FR-071KL"
+		(property "manufacturer_pn" "0402WGF1001TCE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,7 +7823,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C106235"
+		(property "lcsc_pn" "C11702"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Resistors\\Chip\\M1005\\YAGEO_RC0402FR-07.autogen\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25105"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8483,7 +8483,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "manufacturer" "UNI-ROYAL (Uniroyal Elec)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "RC0402FR-0733RL"
+		(property "manufacturer_pn" "0402WGF330JTCE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +8527,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C138002"
+		(property "lcsc_pn" "C25105"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,7 +8758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Resistors\\Chip\\M1005\\YAGEO_RC0402FR-07.autogen\\datasheets"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +8835,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "manufacturer" "UNI-ROYAL (Uniroyal Elec)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8846,7 +8846,7 @@
 				)
 			)
 		)
-		(property "manufacturer_pn" "RC0402FR-0727RL"
+		(property "manufacturer_pn" "0402WGF270JTCE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,7 +8879,7 @@
 				)
 			)
 		)
-		(property "lcsc_pn" "C138021"
+		(property "lcsc_pn" "C25100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9385,6 +9385,1104 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connectors | USB/HRO-TYPE-C-31-M-12"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-12"
+			(at 0 19.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RaspberryPiPicoBase:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C165948"
+			(at 3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB-C Receptacle, USB 2.0, 16P, SMD, Right Angle, Korean Hroparts TYPE-C-31-M-12"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_pn" "C165948"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "TYPE-C-31-M-12"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RaspberryPiPicoBase:USB_C_Receptacle_HRO*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connectors | USB/HRO-TYPE-C-31-M-12_0_0"
+			(rectangle
+				(start -0.254 -17.78)
+				(end 0.254 -16.764)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 15.494)
+				(end 9.144 14.986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 10.414)
+				(end 9.144 9.906)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 7.874)
+				(end 9.144 7.366)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 2.794)
+				(end 9.144 2.286)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 0.254)
+				(end 9.144 -0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -2.286)
+				(end 9.144 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -4.826)
+				(end 9.144 -5.334)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -12.446)
+				(end 9.144 -12.954)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -14.986)
+				(end 9.144 -15.494)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Connectors | USB/HRO-TYPE-C-31-M-12_0_1"
+			(rectangle
+				(start -10.16 17.78)
+				(end 10.16 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -3.81) (xy -8.89 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -7.62 -3.81)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -8.89 3.81)
+				(mid -6.985 5.7067)
+				(end -5.08 3.81)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 -3.81)
+				(mid -6.985 -5.7067)
+				(end -8.89 -3.81)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 3.81) (xy -5.08 -3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 1.143)
+				(radius 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.842) (xy 0 4.318)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.842)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.905 1.778)
+				(end 3.175 3.048)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Connectors | USB/HRO-TYPE-C-31-M-12_1_1"
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -22.86 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Resistors | Chip | M1005/UNIROYAL-0402WGF5101TCE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 1.27 4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 1.27 2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RaspberryPiPicoBase:generic_resc1005x35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25905"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, Chip, 5.1kR, M1005, 63mW, 1%"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "power" "63mW"
+			(at 1.27 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 1.27 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "package" "M1005"
+			(at 1.27 -4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "part_uid" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "status" "OK"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "UNI-ROYAL (Uniroyal Elec)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "0402WGF5101TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging" "7 inch dia. paper taping reel"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "packaging_qty" "10000"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_pn" "C25905"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "temp_coefficient" "100ppm/degC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "voltage" "50V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "size" "1x0.5x0.35mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "resistance" "5.1k"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "z_height_max" "0.4mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temp_min" "-55C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "operating_temp_max" "+155C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "material" "Thick Film"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "current" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "z_height_nom" "0.35mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RaspberryPiPicoBase:generic_resc1005x35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Resistors | Chip | M1005/UNIROYAL-0402WGF5101TCE_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Resistors | Chip | M1005/UNIROYAL-0402WGF5101TCE_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

@@ -2,50 +2,44 @@
 
 ## Left to do
 
-1. **Enable the KiCad API (owner action).** In KiCad 10: Preferences > Plugins >
-   "Enable KiCad API", then restart KiCad. It was off at setup time
-   (%APPDATA%\kicad\10.0\kicad_common.json, api.enable_server=false). KiCad was
-   running during the setup session, so the setting was not edited on disk.
+1. **Reload and review in the KiCad GUI (owner action).** The schematic,
+   board and libraries were edited on disk while KiCad had them open. Reopen
+   the project (or File > Revert in both editors) before saving anything.
+   Then look at: the Power block of the schematic (USB-C symbol J1, R11/R12,
+   label spacing), the USB-C area on the board (connector protrudes 0.8 mm
+   past the edge), SW1/R6/BOOTSEL left of the USB-C, SW2/R4 near J3, and J4
+   with the title silkscreen at the bottom edge. Run Tools > Update PCB from
+   Schematic once; it should report nothing to change. Check the 3D viewer
+   (J4 shows only if "show DNP" is enabled).
 
-2. **Verify live PCB editing through the MCP.** With the API enabled and
-   RaspberryPiPicoBase.kicad_pcb open in the PCB editor (opened from the
-   project manager, not a standalone pcbnew), start a Claude Code session in
-   the repo and call `kicad_get_server_info`. Expect
-   `kicad.livePcbContext: true` and `ipcDocumentLoaded: true`. The tool list
-   should then also contain the live PCB editing tools that kicad-mcp-pro
-   hides while no IPC board is connected (without IPC it exposes 290 tools in
-   the `full` profile, none of which move or route footprints). If they still
-   do not appear, check `uvx kicad-mcp-pro doctor` with PYTHONUTF8=1 set.
+2. **Before ordering at JLCPCB**, re-check stock on jlcpcb.com for the
+   Extended parts (RP2354A C41378174 had 88 in stock on 2026-11-01, the
+   inductor C42411119 is low) and decide whether J2/J3 headers are assembled
+   or replaced; the owner intends to swap them. Confirm the USB-C and switch
+   rotations in bom/cpl.csv against JLCPCB's preview.
 
-3. **First GUI open.** The project has never been opened in the KiCad GUI
-   after the conversion. Open it once, confirm the schematic and board load
-   with the project-local libraries (sym-lib-table / fp-lib-table in the
-   repo), that the 3D viewer shows the embedded models, and that the two new
-   PWR_FLAG symbols (+1V1 near L1, VREG_AVDD near R3) look acceptable. KiCad
-   may ask to create global library tables on first launch of 10.0; choose the
-   default tables, this project does not depend on them. Also check the area
-   where the flash used to be (board x 84-100 mm, y 76-92 mm, left of U1):
-   the footprints and tracks were removed by script and the zones refilled,
-   so run Tools > Update PCB from Schematic once in the GUI to confirm it
-   reports nothing to change, and look at the empty area for leftover
-   silkscreen or odd zone shapes.
+3. **First boards**: verify crystal start-up (the Basic YXC crystal has 80 Ω
+   max ESR versus 50 Ω for the Raspberry Pi qualified part) and the AMS1117
+   stability with the 10 uF ceramic output cap.
 
-4. **Decide what to do with the freed board area** (optional): shrink the
-   outline, or leave room for the user's own circuitry.
+4. **Decide what to do with the freed board area** (left of U1, x 84-100 mm,
+   y 84-92 mm): shrink the outline or leave room for the user's circuitry.
 
 ## Candidate follow-ups (not decided with the owner yet)
 
-- Replace the Micro-USB B connector with USB-C (needs 5.1 kΩ CC pull-downs
-  and a new footprint; stock KiCad library has USB_C_Receptacle_USB2.0_16P
-  and GCT USB4105 footprints).
 - Remove the Raspberry Pi BOM-directive symbols (VARIANT, SCH_BOM_REV,
-  PCB_PWB_REV) and the Raspberry Pi silkscreen text / logo on the board.
-- Clear Datasheet fields that point to Raspberry Pi internal paths
-  (file:///C:\rpi-pdb\...) in lib/RaspberryPiPicoBase.kicad_sym, the
-  schematic cache and the footprints (keep schematic cache and library
-  identical, or ERC reports lib_symbol_mismatch).
+  PCB_PWB_REV; already excluded from the BOM) and the Raspberry Pi logo on
+  the board silkscreen.
+- Clear the remaining Datasheet fields that point to Raspberry Pi internal
+  paths (file:///C:\rpi-pdb\...) for parts that were not swapped (U1, L1,
+  J2/J3 symbol, mounting holes), keeping schematic cache, library and
+  footprint fields identical.
 - Optionally rename the database-style symbol names to short KiCad-style
-  names; the same rename must be applied to the schematic's lib_symbols
-  cache, the lib_id references and the library file.
-- Reduce permission prompts: add uvx and the kicad-cli path to
-  .claude/settings.json allow list (or run /fewer-permission-prompts).
+  names (same rename in the schematic lib_symbols cache, lib_id references
+  and the library file).
+- Remove the unused library entries (Amphenol Micro-USB, Wurth switch, JST SH
+  footprints and symbols, flash SOIC) if forks will not need them.
+- Reduce permission prompts: allow uvx and the kicad-cli path in
+  .claude/settings.json (or run /fewer-permission-prompts).
+- Delete the untracked `output/` (MCP render scratch) and `.history/`
+  folders; both are now in .gitignore.

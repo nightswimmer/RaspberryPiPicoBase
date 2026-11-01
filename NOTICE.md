@@ -1,5 +1,22 @@
 # Third-party notices
 
+## KiCad libraries
+
+The footprints `USB_C_Receptacle_HRO_TYPE-C-31-M-12` and `jst_sm03b-ghs-tb`
+(JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal) and the embedded 3D model
+`jst_sm03b-ghs-tb.step` are copied from the KiCad footprint and 3D model
+libraries (https://gitlab.com/kicad/libraries), licensed under the Creative
+Commons CC-BY-SA 4.0 License with the KiCad library exception
+(https://www.kicad.org/libraries/license/).
+
+## EasyEDA / LCSC 3D models
+
+The embedded 3D models `usbc_hro_type-c-31-m-12.step` (Korean Hroparts
+TYPE-C-31-M-12, LCSC C165948) and `xkb_ts-1187a-b-a-b.step` (XKB Connection
+TS-1187A-B-A-B, LCSC C318884) were downloaded from the EasyEDA component
+library (https://easyeda.com), which publishes them for use with the parts
+sold by LCSC. They are included for visualisation only.
+
 ## Raspberry Pi RP2350A Minimal Design Example (RPI-RP2350A-MINIMAL, revision R4-S1)
 
 The schematic, PCB layout, embedded symbols, footprints and 3D models in this

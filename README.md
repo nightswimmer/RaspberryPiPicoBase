@@ -3,29 +3,42 @@
 A KiCad 10 base design for a custom **RP2354A** board (the RP2350 variant with
 2 MB of flash inside the package): everything the chip needs to boot and run
 reliably, and nothing else. Fork it, add your own circuitry to the free GPIO,
-and go.
+and order it assembled at JLCPCB.
 
 The design is derived from the official Raspberry Pi
 *RP2350A QFN-60 Minimal Design Example* (revision R4-S1, July 2026, MIT
 licence, see [NOTICE.md](NOTICE.md)). The external QSPI flash section was
-removed because the RP2354A has flash on board; the rest of the schematic and
-the routed two-layer board were kept. The project was made self-contained
-(project-local symbol and footprint libraries with embedded 3D models) and
-cleaned up so that ERC and DRC pass with zero violations.
+removed because the RP2354A has flash on board, the Micro-USB connector was
+replaced by USB-C, and the bill of materials was reworked around JLCPCB's
+parts library. The project is self-contained (project-local symbol and
+footprint libraries with embedded 3D models) and ERC and DRC pass with zero
+violations.
 
 ## What is on the board
 
 | Block | Parts |
 |---|---|
-| MCU | RP2354A (QFN-60, 2 MB internal flash), 12 MHz crystal (ABM8-272-T3) with 15 pF load caps, 1 kΩ series resistor on XOUT. QSPI data/clock pins unused; QSPI_SS kept for BOOTSEL |
-| Power | NCP1117 3.3 V LDO from USB VBUS, on-chip switching regulator with 3.3 µH inductor for the 1.1 V core, 100 nF decoupling on every supply pin, 33 Ω / 4.7 µF filter on VREG_AVDD |
-| USB | Micro-USB B connector, 27 Ω series resistors on D+/D- |
-| Buttons | BOOTSEL and RUN tactile switches |
-| Debug | 3-pin JST-SH SWD connector (Raspberry Pi Debug Probe pinout) |
+| MCU | RP2354A (QFN-60, 2 MB internal flash), 12 MHz crystal (YXC X322512MSB4SI, 20 pF) with 33 pF load caps, 1 kΩ series resistor on XOUT. QSPI data/clock pins unused; QSPI_SS kept for BOOTSEL |
+| Power | AMS1117-3.3 LDO from USB VBUS, on-chip switching regulator with 3.3 µH inductor for the 1.1 V core, 100 nF decoupling on every supply pin, 33 Ω / 4.7 µF filter on VREG_AVDD |
+| USB | USB-C receptacle (Korean Hroparts TYPE-C-31-M-12, USB 2.0), 5.1 kΩ CC pull-downs, 27 Ω series resistors on D+/D- |
+| Buttons | BOOTSEL and RUN tactile switches (XKB TS-1187A-B-A-B, 5.1 mm) |
+| Debug | 3-pin JST GH SWD connector (Raspberry Pi Debug Probe pinout), not populated by default; SWD/SWCLK are also on the J3 header |
 | I/O | Two 2x18 2.54 mm pin headers breaking out all 30 GPIO, 3V3, 1V1 and GND |
 | Mechanical | 4 x 2.75 mm mounting holes |
 
-The reference BOM with manufacturer part numbers is in
+## Bill of materials for JLCPCB
+
+Every part carries its LCSC code (`lcsc_pn` field) and the design uses JLCPCB
+*Basic* parts wherever a drop-in exists; the remaining *Extended* parts are the
+RP2354A, the inductor, the USB-C connector, the 27 Ω USB resistors and the pin
+headers. [docs/BOM.md](docs/BOM.md) has the full sourcing table with
+Basic/Extended status, the alternatives that were considered and how to
+regenerate the order files. Ready-made files:
+
+- [bom/bom.csv](bom/bom.csv): grouped BOM with designators, quantities and LCSC part numbers
+- [bom/cpl.csv](bom/cpl.csv): component placement (DNP parts excluded)
+
+The original Raspberry Pi BOM is in
 [docs/reference/RPI-RP2350A-MINIMAL_R4-S1_BOM.md](docs/reference/RPI-RP2350A-MINIMAL_R4-S1_BOM.md)
 and the original schematic PDF is next to it.
 
@@ -38,6 +51,8 @@ RaspberryPiPicoBase.kicad_pcb   routed 2-layer board, 3D models embedded
 sym-lib-table / fp-lib-table    project-local library tables
 lib/RaspberryPiPicoBase.kicad_sym    all symbols used by the design
 lib/RaspberryPiPicoBase.pretty/      all footprints, each with its 3D model embedded
+bom/                            JLCPCB BOM and placement files (generated)
+docs/BOM.md                     sourcing table, part status and alternatives
 docs/reference/                 original Raspberry Pi schematic PDF and BOM
 .mcp.json                       KiCad MCP server for Claude Code (kicad-mcp-pro)
 NOTICE.md                       third-party attribution
@@ -52,7 +67,7 @@ NOTICE.md                       third-party attribution
 
 ```
 kicad-cli sch erc --severity-all RaspberryPiPicoBase.kicad_sch
-kicad-cli pcb drc --severity-all --schematic-parity RaspberryPiPicoBase.kicad_pcb
+kicad-cli pcb drc --severity-all --schematic-parity --refill-zones RaspberryPiPicoBase.kicad_pcb
 ```
 
 Both report zero violations on the base design. The only entries are four
@@ -71,21 +86,17 @@ Prerequisites:
 1. [uv](https://docs.astral.sh/uv/) on the PATH (`uvx` downloads the server on first use).
 2. KiCad 10 installed in the default location (kicad-cli is auto-detected).
 3. In KiCad: *Preferences > Plugins > Enable KiCad API*, then restart KiCad.
-   This lets the server edit the board live inside the open PCB editor.
 
-How edits reach KiCad, and what that means for your workflow:
-
-- **PCB:** with the board open in the PCB editor, edits go through KiCad's IPC
-  API and appear immediately, one undo step per operation. You can keep the
-  editor open.
-- **Schematic:** KiCad 10 has no schematic IPC API (it arrives with KiCad 11),
-  so every tool edits the `.kicad_sch` file on disk. The open Schematic Editor
-  does not notice this. Either close the schematic while Claude edits it, or
-  use *File > Revert* afterwards, and never save in KiCad before reverting or
-  you will overwrite the edit.
+How edits reach KiCad, and what that means for your workflow: tools edit the
+`.kicad_sch`, `.kicad_pcb` and library files on disk and verify them with
+`kicad-cli`. KiCad does not notice edits made on disk while a file is open, so
+after an editing session use *File > Revert* (or reopen the project) before
+saving anything in KiCad, otherwise the on-disk changes are overwritten.
 
 ## Licence
 
 The project files in this repository are MIT licensed (see [LICENSE](LICENSE)).
-The underlying design is copyright Raspberry Pi Ltd, MIT licensed (see
+The underlying design is copyright Raspberry Pi Ltd, MIT licensed; the
+copied KiCad library footprints and 3D model are CC-BY-SA 4.0 with the KiCad
+exception; the EasyEDA/LCSC 3D models are included for visualisation (see
 [NOTICE.md](NOTICE.md)).

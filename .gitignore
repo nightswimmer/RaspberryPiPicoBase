@@ -35,3 +35,7 @@ Thumbs.db
 
 # Claude Code local-only settings
 .claude/settings.local.json
+
+# Local editor history and MCP scratch output
+/.history/
+/output/
